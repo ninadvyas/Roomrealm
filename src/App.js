@@ -13,11 +13,7 @@ import Lottie from 'lottie-react'
 import animationData from './Components/artychat.json'
 import {
   Card,
-  CardHeader,
-  Image,
   Stack,
-  Heading,
-  Text,
   Divider,
   ButtonGroup,
   CardBody,
@@ -142,7 +138,7 @@ function App() {
         </Container>
       ) : (
         <VStack h={"100vh"} bg={"black"} justifyContent={"center"}>
-          <Card maxW="sm" flex='displpay' width='250px'>
+          <Card maxW="sm" flex='displpay' width='250px' bg={"black"}>
             <CardBody>
             <Lottie width='20%' animationData={animationData}/>
               <Stack mt="2" >
