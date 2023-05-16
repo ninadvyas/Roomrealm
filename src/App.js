@@ -142,7 +142,7 @@ function App() {
         </Container>
       ) : (
         <VStack h={"100vh"} bg={"black"} justifyContent={"center"}>
-          <Card maxW="sm">
+          <Card maxW="sm" flex='displpay' width='250px'>
             <CardBody>
             <Lottie width='20%' animationData={animationData}/>
 
