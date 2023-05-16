@@ -145,8 +145,7 @@ function App() {
           <Card maxW="sm" flex='displpay' width='250px'>
             <CardBody>
             <Lottie width='20%' animationData={animationData}/>
-
-              <Stack mt="6" spacing="3" >
+              <Stack mt="2" >
               </Stack>
             </CardBody>
             <Divider />
