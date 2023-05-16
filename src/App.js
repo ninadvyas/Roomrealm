@@ -9,8 +9,8 @@ import {
 import { useEffect, useRef, useState } from "react";
 import { app } from "./firebase";
 import Message from "./Components/Message";
-import Lottie from 'lottie-react'
-import animationData from './Components/artychat.json'
+import Lottie from "lottie-react";
+import animationData from "./Components/artychat.json";
 import {
   Card,
   Stack,
@@ -94,7 +94,6 @@ function App() {
     <Box bg={"black"}>
       {user ? (
         <Container h={"100vh"} bg={"black"}>
-          {/* vertical stack jiski display flex hai */}
           <VStack h={"full"} paddingY={"4"}>
             <Button w={"50"} colorScheme={"red"} onClick={logoutHandler}>
               logout
@@ -138,11 +137,10 @@ function App() {
         </Container>
       ) : (
         <VStack h={"100vh"} bg={"black"} justifyContent={"center"}>
-          <Card maxW="sm" flex='displpay' width='250px' bg={"black"}>
+          <Card maxW="sm" flex="displpay" width="250px" bg={"black"}>
             <CardBody>
-            <Lottie width='20%' animationData={animationData}/>
-              <Stack mt="2" >
-              </Stack>
+              <Lottie width="20%" animationData={animationData} />
+              <Stack mt="2"></Stack>
             </CardBody>
             <Divider />
             <CardFooter justifyContent={"center"}>
